@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <style>
+   #dropdown{
+     display:inline;
+   }
+ </style>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+      <div class="dropdown" id ="dropdown col-2">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+            Dropdown
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownmenu">
+            <li><a href="#">text</a></li>
+            <li><a href="#">text 2</a></li>
+            <li><a href="#">text 3</a></li>
+          </ul>
+        </div>
+        <div class="col-7">
+          <p>poo</p>
+        </div>
+    <div class="navbar-header col-3">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+  </nav>
+
+<style>
+  .dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+</style>
+  
+<div class="container">
+  <h3>Basic Navbar Example</h3>
+  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+</div>
+
+</body>
+</html>
